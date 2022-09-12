@@ -1,0 +1,31 @@
+.portofolio-card-speaker-card {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portofolio-card-image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  min-width: 300px;
+  max-height: 313px;
+  min-height: 313px;
+  align-items: flex-end;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.portofolio-card-image {
+  width: 409px;
+  height: 309px;
+  object-fit: cover;
+}
+.portofolio-card-first-name {
+  align-self: center;
+  font-style: normal;
+}
+.portofolio-card-root-class-name {
+  flex: 0;
+}
